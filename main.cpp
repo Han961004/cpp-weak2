@@ -14,7 +14,12 @@ int main(){
     
 
     //std::cout << "Answer is " << randnum1 << std::endl;
+    /*
+    5회는 너무 어려운데요
+    */
 
     std::string answer = std::to_string(randnum1);
+    gameflow(answer);
+
     return 0;
 }
