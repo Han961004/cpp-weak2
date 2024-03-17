@@ -8,7 +8,13 @@ int randnum();
 void gameflow(std::string answer);
 
 int main(){
-    std::string answer = std::to_string(randnum());
-    gameflow(answer);
+
+    
+    int randnum1 = randnum();
+    
+
+    //std::cout << "Answer is " << randnum1 << std::endl;
+
+    std::string answer = std::to_string(randnum1);
     return 0;
 }
